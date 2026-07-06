@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    text-decoration: none;
+    gap: 15px;
+    position: relative;
+
+    
+}
+.list-item{
+   border: 3px solid white;
+   padding: 10px;
+   color: rgb(255,0,148);
+   border-radius: 10px;
+   text-align: center;
+}
+.list-item:hover{
+    background-color: blue;
+    color: white;
+
+}
+.ful{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+    padding: 30px;
+}
+.content-overlay{
+    position: absolute;
+    text-align: center;
+    color: rgb(133, 5, 207);
+}
+.my-button{
+    background-color: aqua;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: green;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+#name{
+    position: absolute;
+    text-align: center;
+    color: rgb(177, 11, 218);
+    bottom: 250px;
+    text-shadow: 4px 5px 6px 7px color(srgb  green blue);
+}
+.man{
+    position: absolute;
+    text-align: center;
+    color: black;
+    top: 50px;
+}
+.html{
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    color: black;
+   
+}
